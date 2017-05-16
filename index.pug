@@ -6,6 +6,7 @@ html
 		meta(name="viewport" content="width=device-width, initial-scale=1")
 		link(rel="shortcut icon" href="favicon.png")
 		link(rel="stylesheet" href="assets/css/main.css")
+		script(src="assets/js/typed.js" type="text/javascript")
 	body
 		section.pre
 			.center
@@ -14,6 +15,28 @@ html
 					img(src="assets/img/logo.svg" alt="Black Fusion")
 			.slogan
 				h2 Te invito un café y hablemos de negocios
+		.container
+			section.home
+				.overlay
+				.section
+					.logo
+						img(src="assets/img/logo-home.svg")
+					.write
+						.lead
+							h2 El mejor negocio multinivel para personas que quieran:
+						.element
+					.registro
+						.
+							<form action="https://formspree.io/your@email.com"method="POST">
+							  <input type="text" name="name" placeholder="Nombre">
+							  <input type="text" name="number" placeholder="Celular">
+							  <input type="submit" value="Enviar">
+							</form>
+					.negritas
+						p *Envianos tu información y en breve nos pondremos en contácto.
+						
+			
+
 
 		script(src="assets/js/jquery-2.1.4.min.js")
 		script(src="assets/js/functions.js" type="text/javascript")

@@ -1,0 +1,131 @@
+.container
+	display: none
+	section.home
+		width: 100%
+		height: 100vh
+		background: url(../img/cafe.gif)
+		background-repeat: no-repeat
+		background-position: center
+		background-size: cover
+		.overlay
+		.section
+			overflow: hidden !important
+			position: absolute
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+			background: rgba(0,0,0, .7)
+			display: flex
+			flex-direction: column
+			justify-content: center
+			.logo
+				margin-bottom: 50px
+				img
+					padding-top: 50px
+					max-width: 300px
+					margin: 0px auto
+					display: block
+			.write
+				text-align: center
+				border-bottom: solid 2px $green
+				width: 600px
+				margin: 0 auto 50px
+				padding-bottom: 10px
+				.lead
+					font-size: 2em
+					max-width: 700px
+					text-align: center
+					display: block
+					margin: 0 auto 50px
+				.element
+					margin: 0 auto !important
+					text-align: center !important
+					font-size: 2em
+					display: inline
+			.registro
+				margin-top: 0
+				margin-bottom: 50px
+				form
+					display: inline-block
+					position: relative
+					left: 50%
+					transform: translateX(-50%)
+					width: 740
+					input
+						font-size: 1.1em
+						margin: 0 -5px 0 0
+						background: none
+						border: solid 2px white
+						color: white
+						padding: 10px
+						width: 270px
+						height: 30px
+						&:last-child
+							background: $green
+							width: 200px
+					input[type="submit"]
+						height: 54px
+						margin: 0
+						padding: 0
+						border-radius: 0
+			.negritas
+				font-size: 1.3em
+				text-align: center
+				color: white
+@media (max-width: 840px)
+	section.home
+		.section
+			.logo
+				margin-bottom: 25px !important
+				img
+					padding-top: 25px !important
+					max-width: 250px !important
+			.write
+				text-align: center
+				border-bottom: solid 2px $green
+				max-width: 400px !important
+				margin: 0 auto 25px !important
+				padding: 0 10px 10px 10px !important
+				.lead
+					font-size: 1.2em !important
+					max-width: 700px
+					text-align: center
+					display: block
+					margin: 0 auto 25px !important
+				.element
+					margin: 0 auto !important
+					text-align: center !important
+					font-size: 1.2em !important
+					display: inline
+			.registro
+				margin-top: 0
+				margin-bottom: 0px !important
+				form
+					display: inline-block
+					position: relative
+					left: 50%
+					transform: translateX(-50%)
+					width: 740
+					input
+						display: block !important
+						font-size: 1.1em
+						margin: 0 -5px 0 0
+						background: none
+						border: solid 2px white
+						color: white
+						padding: 10px
+						width: 270px
+						height: 30px
+						&:last-child
+							background: $green
+							width: 294px !important
+					input[type="submit"]
+						height: 54px !important
+						margin: 0 !important
+						padding: 0 !important
+						border-radius: 0
+			.negritas
+				font-size: .9em !important
+				text-align: center
+				color: white

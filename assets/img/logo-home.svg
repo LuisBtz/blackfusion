@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="693 62 535 112.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7c9b3c;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #7c9b3c;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 60px;
+        font-family: IowanOldStyle-Roman, Iowan Old Style;
+      }
+    </style>
+  </defs>
+  <g id="Group_2" data-name="Group 2" transform="translate(-15 -46)">
+    <g id="Group_1" data-name="Group 1" transform="translate(924.944 108)">
+      <path id="Path_1" data-name="Path 1" class="cls-1" d="M31.3,0,14.7,23.7S3.8,41.3,1.4,46.3A4.8,4.8,0,0,0,.9,48C0,53-5.7,82.8,31.3,90.1V83s-22-3.8-23-26.8c0,0-1.4-20.5,23-26.4Z"/>
+      <path id="Path_2" data-name="Path 2" class="cls-1" d="M38.1,112.7,54.7,89S67.8,67.6,68.5,65.3c.8-2.5,8.7-35-30.4-42.7v7.1s22,3.8,23,26.8c0,0,1.4,20.5-23,26.4Z"/>
+      <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-2" cx="18.1" cy="18.1" r="18.1" transform="translate(16.6 38.1)"/>
+    </g>
+    <text id="BLACK" class="cls-3" transform="translate(708 185)"><tspan x="0" y="0">BLACK</tspan></text>
+    <text id="FUSION" class="cls-3" transform="translate(1011 185)"><tspan x="0" y="0">FUSION</tspan></text>
+  </g>
+</svg>
